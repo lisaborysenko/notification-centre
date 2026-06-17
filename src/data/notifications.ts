@@ -39,4 +39,11 @@ export const mockNotifications: Notification[] = [
     isRead: true,
     createdAt: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
   },
+  {
+    id: "6",
+    type: "user_joined",
+    userName: "Mary Lane",
+    isRead: false,
+    createdAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
+  },
 ];
